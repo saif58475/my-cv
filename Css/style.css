@@ -227,6 +227,7 @@ section .text{
 display: flex;
 flex-direction: column;
 position: absolute;
+direction: rtl;
 left: 0;
 top: 100%;
 width: 100%;
@@ -236,7 +237,6 @@ width: 100%;
 }
 .bars:hover ul li a{
 padding-left: 10px;
-
 }
 }
 /* End Section */
